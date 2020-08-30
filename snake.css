@@ -1,0 +1,44 @@
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 50px auto 50px;
+	height: 300px;
+	border: 4px solid black;
+
+	box-shadow: 10px 10px 15px black;
+}
+.pr {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: lemonada;
+	text-shadow: 5px 5px 10px orange;
+	line-height: 40px;
+	margin: 90px 30px;
+}
+.text {
+	text-align: center;
+	font-family: lemonada;
+	font-style: italic;
+	font-weight: bold;
+	color: orange;
+	text-shadow: 5px 5px 10px black;
+	font-size: 50px;
+	margin-left: 320px;
+}
+
+.x {
+	width: 30px;
+	height: 30px;
+}
+
+.snake {
+	background-color: blue;
+}
+
+.apple {
+	background-color: red;
+}
