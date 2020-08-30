@@ -1,13 +1,17 @@
+function func(){
 snake=[2,1,0]
 dir=1
 var countOccurrences= (arr,val)=> arr.reduce((a,v)=> (v=== val ? a+1 :a),0)
 var virat=document.querySelector("div.row")
+// var kohli=document.querySelector("start")
+// kohli.addEventListener("click", func)
 width=10
 point=0
 br=0
 time=0.5
 interval=400
-function fun(){
+
+ function fun(){
 	if(br==0){
 	p = document.querySelectorAll("div.x")
 	k=snake.pop()
@@ -84,4 +88,5 @@ function end(){
 	}else if(countOccurrences(snake,snake[0])>1){
 		document.querySelector("div.row").innerHTML="<p class='pr'>GAME OVER!!! <br> YOUR SCORE IS " + point + "</p>"
 	}
+}
 }
