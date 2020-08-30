@@ -3,8 +3,6 @@ snake=[2,1,0]
 dir=1
 var countOccurrences= (arr,val)=> arr.reduce((a,v)=> (v=== val ? a+1 :a),0)
 var virat=document.querySelector("div.row")
-// var kohli=document.querySelector("start")
-// kohli.addEventListener("click", func)
 width=10
 point=0
 br=0
