@@ -7,7 +7,7 @@ width=10
 point=0
 br=0
 time=0.5
-interval=400
+interval=250
 
  function fun(){
 	if(br==0){
